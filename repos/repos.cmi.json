@@ -22,7 +22,7 @@
       "CC": "proton-clang/bin/clang",
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/arm-linux-gnueabi-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-"
       }
     },
     "AnyKernel3": {
