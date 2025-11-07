@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "bxsj-KernelSU-Proton-release",
-      "repo": "https://github.com/AOSP-13-Mediatek/kernel_xiaomi_chopin",
-      "branch": "r",
-      "device": "chopin",
-      "defconfig": "chopin_user_defconfig"
+      "name": "a02-kernel-release",
+      "repo": "https://github.com/a02-trial/a022f_kernel",
+      "branch": "main",
+      "device": "a02",
+      "defconfig": "a02_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -18,7 +18,7 @@
     ],
     "ccache": false,
     "params": {
-      "ARCH": "arm64",
+      "ARCH": "arm",
       "CC": "proton-clang/bin/clang",
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
