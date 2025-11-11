@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "a02-kernel-release",
       "repo": "https://github.com/a02-trial/a022f_kernel",
-      "branch": "main",
+      "branch": "kernel11",
       "device": "a02",
       "defconfig": "a02_defconfig"
     },
@@ -16,10 +16,10 @@
         "binPath": ["bin"]
       }
     ],
-    "ccache": false,
+    "ccache": true,
     "params": {
       "ARCH": "arm",
-      "CC": "proton-clang/bin/clang",
+      "CC": "clang",
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/arm-linux-gnueabi-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-"
