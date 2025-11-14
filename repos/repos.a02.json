@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "a02-kernel-release",
-      "repo": "https://github.com/a02-trial/a02kernel",
-      "branch": "main",
+      "repo": "https://github.com/a02-trial/a022f_kernel",
+      "branch": "physwizz",
       "device": "a02",
       "defconfig": "a02_defconfig"
     },
